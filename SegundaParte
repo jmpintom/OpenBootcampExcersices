@@ -1,0 +1,16 @@
+package OpenBootcampExcersices;
+
+public class Main {
+    public static void main(String[] args){
+        Coche miCoche = new Coche();
+        miCoche.AumentarPuertas();
+        System.out.println(miCoche.numero_puertas);
+    }
+}
+
+class Coche {
+    public int numero_puertas=4;
+    public void AumentarPuertas(){
+        this.numero_puertas++;
+    }
+}
